@@ -38,4 +38,51 @@ The primary data sources used is excel worksheet, which is an open-source data.
 - Job level
 - Job Satisifaction
 - Monthly Income
-- Monthly Rate
+- Monthly Rate etc.
+
+
+Firstly, confirm the types of each of the columns whether they are text for letters, whole numers for figures, time/date for date etc. Correct accordingly where column type is incorrect. Then move on creating conditional columns for attrition, CF_age band and job satisfaction. 
+
+For attrition, rename the column as attrition rate where:
+- 'Yes' = 1  
+- Else  = 0.
+
+Also rename CF_age band to be age sort where:
+
+- Under 25 = 1
+- 25 - 34 = 2
+- 35 - 44 = 3
+- 45 - 54 = 4
+- Else = 5
+
+Lastly, conditional columns where created for job satisifacton where:
+- 1 = very dissatisified
+- 2 = Dissatisified
+- 3 = Satisified
+- Else = very satisified
+
+After creating the conditional columns for each, ensure to check the column type and correct where necessary. 
+
+
+![HR data](https://github.com/user-attachments/assets/db22c20b-fc50-4a8b-8b12-1d2aa6c050ac)
+
+
+
+Move over to your dashboard for visualization. We visualized the HR data with pie chart, doughnut, bar chart, tables, matrix etc. We also visualized:
+- Total number of employees
+- Attrition count
+- Attrition rate
+- Total number of current employees
+- Average age
+- Attrition by Educational field
+- Attrition by Department
+- Sum of attrition count by CF_age band and Gender etc.
+
+
+![expirment](https://github.com/user-attachments/assets/f905a531-4f5a-499c-b5c3-aad4d68cb98f)
+
+
+
+  ![HR data 2](https://github.com/user-attachments/assets/4a3c27ed-b8ef-4db9-b619-b5a481f06990)
+
+
